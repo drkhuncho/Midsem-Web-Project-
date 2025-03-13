@@ -1,0 +1,69 @@
+<DOCTYPE html>
+<html>
+<head>
+<title>World Cup Tournament</title>
+<style>
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+  margin: 0;
+}
+
+table {
+  border-collapse: collapse;
+  width: 60%; /* Adjust as needed */
+  margin-top: 20px;
+}
+
+th, td {
+  border: 1px solid black;
+  padding: 8px;
+  text-align: center;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+
+h1 {
+  text-align: center;
+}
+</style>
+</head>
+<body>
+
+<h1>FIFA WORLD CUP PAIRINGS</h1>
+
+<table>
+  <tr>
+    <th>GROUP A</th>
+    <th>GROUP B</th>
+    <th>GROUP C</th>
+  </tr>
+  <tr>
+    <td>Ghana</td>
+    <td>Brazil</td>
+    <td>Argentina</td>
+  </tr>
+  <tr>
+    <td>Portugal</td>
+    <td>England</td>
+    <td>France</td>
+  </tr>
+  <tr>
+    <td>Canada</td>
+    <td>Switzerland</td>
+    <td>USA</td>
+  </tr>
+  <tr>
+    <td>Uruguay</td>
+    <td>Senegal</td>
+    <td>Cameroon</td>
+  </tr>
+</table>
+
+</body>
+</html>
