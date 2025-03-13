@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>My Contact Page</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      text-align: center;
+      margin-top: 50px;
+    }
+
+    .contact-page {
+      width: 300px;
+      margin: 0 auto;
+      border: 1px solid #ccc;
+      padding: 20px;
+      border-radius: 5px;
+    }
+
+    .contact-page h2 {
+      text-decoration: underline;
+      margin-bottom: 20px;
+    }
+
+    .profile-icon {
+      width: 80px;
+      height: 80px;
+      border: 2px solid #000;
+      border-radius: 50%;
+      margin: 20px auto;
+      position: relative;
+    }
+
+    .profile-icon::before {
+      content: '';
+      width: 40px;
+      height: 40px;
+      border: 2px solid #000;
+      border-radius: 50%;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -75%);
+    }
+
+    .profile-icon::after {
+      content: '';
+      width: 60px;
+      height: 30px;
+      border-bottom: 2px solid #000;
+      position: absolute;
+      top: 60%;
+      left: 50%;
+      transform: translateX(-50%);
+    }
+
+    .contact-page p {
+      text-align: left;
+      margin-bottom: 10px;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="contact-page">
+    <h2>CONTACT PAGE</h2>
+
+    <div class="profile-icon"></div>
+
+    <p><strong>Name:</strong></p>
+    <p><strong>Phone Number:</strong></p>
+    <p><strong>Email Address:</strong></p>
+    <p><strong>Program:</strong></p>
+    <p><strong>Level:</strong></p>
+    <p><strong>Index Number:</strong></p>
+  </div>
+
+</body>
+</html>
